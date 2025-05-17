@@ -11,4 +11,12 @@ Now hold down the `discharge` push button. If the cap has charge, the LED should
 
 If you want to be able to charge the cap, connect the `+V` and `GND` pads to a DC power source (5V suggested), and the `charge` push button will charge the cap while it is held down.
 
+## charge and discharge time
+
+safsda
+
+
+## footnotes
+
+* the cap voltage rating doesn't matter much because it can only charge up to the voltage the power supply provides
 
