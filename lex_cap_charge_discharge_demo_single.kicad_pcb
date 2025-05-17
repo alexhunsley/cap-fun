@@ -344,7 +344,7 @@
 			(net 4 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "c733f5c1-b55f-49b8-82de-6706be31a3a9")
+			(uuid "683b780b-961d-4ba8-bfaf-7c5b7f6699b4")
 		)
 		(pad "2" thru_hole circle
 			(at 0 5.08)
@@ -366,7 +366,7 @@
 			(net 1 "Net-(SW1-A)")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "41b85cde-e40f-434a-92fa-57b4b14cf21b")
+			(uuid "18444adb-3542-4233-b36c-7dde8580ec12")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_Straight_KSL0Axx1LFTR.wrl"
@@ -904,7 +904,7 @@
 			(net 1 "Net-(SW1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "43c14ccd-4eac-4e95-8f7e-945cfb929d4e")
+			(uuid "6fd0d4df-c36f-45bc-a310-e61ee9640350")
 		)
 		(pad "2" thru_hole circle
 			(at 0 5.08)
@@ -926,7 +926,7 @@
 			(net 6 "+5V")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "653790ed-570a-4234-8bd3-cc42443893d2")
+			(uuid "6915da9f-a05a-4dd6-b63c-69bfd011ac38")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_Straight_KSL0Axx1LFTR.wrl"
