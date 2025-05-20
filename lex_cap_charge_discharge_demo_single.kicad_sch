@@ -1060,6 +1060,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 184.404 131.318 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "0c1dcc56-6599-429e-b7bc-4f6c6136c782")
+	)
 	(text "momentary"
 		(exclude_from_sim no)
 		(at 145.288 30.988 0)
