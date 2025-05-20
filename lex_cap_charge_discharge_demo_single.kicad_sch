@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 29.21) (xy 57.15 29.21)
+			(xy 53.34 29.21) (xy 55.88 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 29.21) (xy 92.71 29.21)
+			(xy 90.17 29.21) (xy 92.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 29.21) (xy 69.85 29.21)
+			(xy 66.04 29.21) (xy 69.85 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 29.21) (xy 81.28 29.21)
+			(xy 77.47 29.21) (xy 82.55 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 29.21 270)
+		(at 86.36 29.21 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1305,7 +1305,7 @@
 		(dnp no)
 		(uuid "23d1d21b-efa5-4f2a-b5db-34723202aaa4")
 		(property "Reference" "R2"
-			(at 83.566 22.86 90)
+			(at 84.836 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 83.058 25.4 90)
+			(at 84.328 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1323,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 85.09 30.988 90)
+			(at 86.36 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 29.21 0)
+			(at 86.36 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 29.21 0)
+			(at 86.36 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 25.4 71.12 0)
 			(effects
 				(font
@@ -1514,8 +1514,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 72.136 25.4 0)
+		(property "Value" "small red LED"
+			(at 68.072 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1642,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 62.23 29.21 0)
+		(at 60.96 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1651,7 +1651,7 @@
 		(dnp no)
 		(uuid "7ecd0882-e5c0-4904-bc70-ec209478812e")
 		(property "Reference" "SW2"
-			(at 62.23 22.86 0)
+			(at 60.96 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,15 +1659,15 @@
 			)
 		)
 		(property "Value" "discharge"
-			(at 62.23 25.4 0)
+			(at 60.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR"
-			(at 62.23 29.21 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 29.21 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 62.23 29.21 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 25.4 81.28 0)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 43.18 45.72 0)
 			(effects
 				(font
