@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "drill/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
