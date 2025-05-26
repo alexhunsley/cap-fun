@@ -1206,6 +1206,18 @@
 		(uuid "3435997b-9c6c-486c-b300-a7f1c60b466b")
 	)
 	(junction
+		(at 167.64 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f402e6-3a3e-426e-bfa1-c3624d91cc7f")
+	)
+	(junction
+		(at 144.78 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77ec5c14-c81f-4abb-b797-e581926e620d")
+	)
+	(junction
 		(at 137.16 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1219,13 +1231,43 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 44.45) (xy 176.53 44.45)
+			(xy 160.02 44.45) (xy 167.64 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b08c409-3c76-4746-b900-522d790a17ad")
+	)
+	(wire
+		(pts
+			(xy 144.78 44.45) (xy 152.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166c06f6-b0b9-4f95-99cf-7f70673370f1")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1684bd42-83e5-435e-9c44-05ac818cab6f")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16acd6b3-da6b-4fb1-86d9-659e6084af1d")
 	)
 	(wire
 		(pts
@@ -1239,13 +1281,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 48.26) (xy 176.53 44.45)
+			(xy 182.88 44.45) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4a88b6-cd1b-4bef-80b0-98ad804e69fb")
+	)
+	(wire
+		(pts
+			(xy 182.88 57.15) (xy 182.88 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2cb4fffc-dec1-4ea5-96d6-8ab1791196bd")
+	)
+	(wire
+		(pts
+			(xy 144.78 52.07) (xy 146.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5554e8-8f46-4e3c-b4e1-305b87adb3fd")
 	)
 	(wire
 		(pts
@@ -1379,7 +1441,27 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 44.45) (xy 152.4 44.45)
+			(xy 144.78 44.45) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5833637-47a2-425c-8547-c4e26505c92f")
+	)
+	(wire
+		(pts
+			(xy 167.64 52.07) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad494df8-8618-4284-a417-821da7c876aa")
+	)
+	(wire
+		(pts
+			(xy 137.16 44.45) (xy 144.78 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1550,6 +1632,157 @@
 			(project "lex_cap_charge_discharge_demo_single"
 				(path "/4806787d-5dd8-494c-9bb0-c182769ed172"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 151.13 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e2c161b-fb35-4001-8774-1260039d52e9")
+		(property "Reference" "J3"
+			(at 150.114 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 133.35 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Var" "Optional_Fitted Yes(+!) No(-!)"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63369a3b-2c8c-4607-9f94-4061405e2028")
+		)
+		(instances
+			(project ""
+				(path "/4806787d-5dd8-494c-9bb0-c182769ed172"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 161.29 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f23f8f1-668b-4973-af9c-0e797b876846")
+		(property "Reference" "J4"
+			(at 162.306 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 178.816 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Var" "Optional_Fitted Yes(+!) No(-!)"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "703145bb-d3b1-415e-8f59-bade960d6cf2")
+		)
+		(instances
+			(project "lex_cap_charge_discharge_demo_single"
+				(path "/4806787d-5dd8-494c-9bb0-c182769ed172"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2332,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 48.26 0)
+		(at 182.88 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2108,7 +2341,7 @@
 		(fields_autoplaced yes)
 		(uuid "a014a2b1-e76d-4b95-8af2-ff121a544a9c")
 		(property "Reference" "#PWR06"
-			(at 176.53 54.61 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 53.34 0)
+			(at 182.88 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 48.26 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 48.26 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 48.26 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
