@@ -451,7 +451,7 @@
 		)
 		(property "Value" "1000uF"
 			(at 2.5 6.25 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f68ee01e-d73c-4e79-b46a-f63dea4ad7d3")
 			(effects
 				(font
