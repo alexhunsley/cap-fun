@@ -1,6 +1,6 @@
 # cap-fun
 
-I made this to try out KiCad, see [blog post](https://hunsley.io/posts/2025/electronics-kicad-pcb-fabrication-cap-fun).
+I made this to try out KiCad, see [blog post](https://hunsley.io/posts/2025/electronics-kicad-pcb-fabrication-cap-fun) and [follow-up](https://hunsley.io/posts/2025/electronics-cap-fun-pcb-fabrication-result-jlcpcb/).
 
 This is a small educational circuit for demonstrating how capacitors work:
 
